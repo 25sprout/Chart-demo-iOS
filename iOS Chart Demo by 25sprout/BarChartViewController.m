@@ -28,9 +28,6 @@
     // 客製化尚未加入資料的View 訊息
     [self customTextSetting];
     
-    // 更多設定參考範例
-    [self moreCustomizeSetting];
-    
     // Function to show barChart
     [self showBarChart];
 }
@@ -73,6 +70,9 @@
     BarChartData *barChartData = [[BarChartData alloc] initWithXVals:dataSetting.months dataSet:barChartDataSet];
     
     barChartView.data = barChartData;
+    
+    // 更多設定參考範例
+    [self moreCustomizeSetting];
 }
 
 - (void)moreCustomizeSetting {
@@ -83,7 +83,7 @@
     [barChartView setBorderLineWidth:5.f];
     
     // 增加限制線
-    [barChartView.rightAxis addLimitLine:[DataSetting coCustomizeSettingWithLimit:4 withWidth:2]];
+    [barChartView.rightAxis addLimitLine:[DataSetting coCustomizeSettingWithLimitLine:4 withWidth:2]];
 }
 
 @end

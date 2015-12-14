@@ -68,7 +68,7 @@
 
 - (void)moreCustomizeSetting {
     
-    [lineChartView.rightAxis addLimitLine:[DataSetting coCustomizeSettingWithLimit:7 withWidth:5]];
+    [lineChartView.rightAxis addLimitLine:[DataSetting coCustomizeSettingWithLimitLine:7 withWidth:5]];
 }
 
 @end

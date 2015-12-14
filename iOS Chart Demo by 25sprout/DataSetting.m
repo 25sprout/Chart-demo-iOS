@@ -45,13 +45,15 @@
 }
 
 // 可一起使用的客製化功能
-+ (ChartLimitLine *)coCustomizeSettingWithLimit: (float)litmit withWidth: (float)width {
+
++ (ChartLimitLine *)coCustomizeSettingWithLimitLine: (float)litmit withWidth: (float)width {
     
     // 增加限制線
     ChartLimitLine *limitLine = [[ChartLimitLine alloc] initWithLimit: litmit label:@"銷售目標"];
     limitLine.lineColor = [UIColor colorWithRed:109/255.f green:195/255.f blue:99/255.f alpha:1.f];
     limitLine.lineWidth = width;
-    return limitLine ;
+    
+    return limitLine;
 }
 
 @end
