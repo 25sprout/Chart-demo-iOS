@@ -16,6 +16,8 @@
 		563A754C1C1E75A100FE3E6E /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 563A754A1C1E75A100FE3E6E /* LaunchScreen.storyboard */; };
 		563A75571C1E75A100FE3E6E /* iOS_Chart_Demo_by_25sproutTests.m in Sources */ = {isa = PBXBuildFile; fileRef = 563A75561C1E75A100FE3E6E /* iOS_Chart_Demo_by_25sproutTests.m */; };
 		563A75621C1E75A100FE3E6E /* iOS_Chart_Demo_by_25sproutUITests.m in Sources */ = {isa = PBXBuildFile; fileRef = 563A75611C1E75A100FE3E6E /* iOS_Chart_Demo_by_25sproutUITests.m */; };
+		563A757B1C1E7E8200FE3E6E /* Charts.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 563A75761C1E7E7900FE3E6E /* Charts.framework */; };
+		563A757C1C1E7E8200FE3E6E /* Charts.framework in Embed Frameworks */ = {isa = PBXBuildFile; fileRef = 563A75761C1E7E7900FE3E6E /* Charts.framework */; settings = {ATTRIBUTES = (CodeSignOnCopy, RemoveHeadersOnCopy, ); }; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -33,7 +35,49 @@
 			remoteGlobalIDString = 563A75351C1E75A100FE3E6E;
 			remoteInfo = "iOS Chart Demo by 25sprout";
 		};
+		563A75751C1E7E7900FE3E6E /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 563A756F1C1E7E7900FE3E6E /* Charts.xcodeproj */;
+			proxyType = 2;
+			remoteGlobalIDString = 5BA8EC401A9D14DC00CE82E1;
+			remoteInfo = "Charts-iOS";
+		};
+		563A75771C1E7E7900FE3E6E /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 563A756F1C1E7E7900FE3E6E /* Charts.xcodeproj */;
+			proxyType = 2;
+			remoteGlobalIDString = A52C5C371BAC5CA400594CDD;
+			remoteInfo = "Charts-TV";
+		};
+		563A75791C1E7E7900FE3E6E /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 563A756F1C1E7E7900FE3E6E /* Charts.xcodeproj */;
+			proxyType = 2;
+			remoteGlobalIDString = 06AEE7A21BDC3F8B009875AE;
+			remoteInfo = ChartsTests;
+		};
+		563A757D1C1E7E8200FE3E6E /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 563A756F1C1E7E7900FE3E6E /* Charts.xcodeproj */;
+			proxyType = 1;
+			remoteGlobalIDString = 5BA8EC3F1A9D14DC00CE82E1;
+			remoteInfo = "Charts-iOS";
+		};
 /* End PBXContainerItemProxy section */
+
+/* Begin PBXCopyFilesBuildPhase section */
+		563A757F1C1E7E8200FE3E6E /* Embed Frameworks */ = {
+			isa = PBXCopyFilesBuildPhase;
+			buildActionMask = 2147483647;
+			dstPath = "";
+			dstSubfolderSpec = 10;
+			files = (
+				563A757C1C1E7E8200FE3E6E /* Charts.framework in Embed Frameworks */,
+			);
+			name = "Embed Frameworks";
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXCopyFilesBuildPhase section */
 
 /* Begin PBXFileReference section */
 		563A75361C1E75A100FE3E6E /* iOS Chart Demo by 25sprout.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "iOS Chart Demo by 25sprout.app"; sourceTree = BUILT_PRODUCTS_DIR; };
@@ -53,6 +97,7 @@
 		563A755D1C1E75A100FE3E6E /* iOS Chart Demo by 25sproutUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "iOS Chart Demo by 25sproutUITests.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
 		563A75611C1E75A100FE3E6E /* iOS_Chart_Demo_by_25sproutUITests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = iOS_Chart_Demo_by_25sproutUITests.m; sourceTree = "<group>"; };
 		563A75631C1E75A100FE3E6E /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		563A756F1C1E7E7900FE3E6E /* Charts.xcodeproj */ = {isa = PBXFileReference; lastKnownFileType = "wrapper.pb-project"; name = Charts.xcodeproj; path = "../../../../../../../Downloads/ios-charts-master/Charts/Charts.xcodeproj"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -60,6 +105,7 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				563A757B1C1E7E8200FE3E6E /* Charts.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -120,6 +166,7 @@
 		563A75391C1E75A100FE3E6E /* Supporting Files */ = {
 			isa = PBXGroup;
 			children = (
+				563A756F1C1E7E7900FE3E6E /* Charts.xcodeproj */,
 				563A753A1C1E75A100FE3E6E /* main.m */,
 			);
 			name = "Supporting Files";
@@ -143,6 +190,16 @@
 			path = "iOS Chart Demo by 25sproutUITests";
 			sourceTree = "<group>";
 		};
+		563A75701C1E7E7900FE3E6E /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				563A75761C1E7E7900FE3E6E /* Charts.framework */,
+				563A75781C1E7E7900FE3E6E /* Charts.framework */,
+				563A757A1C1E7E7900FE3E6E /* ChartsTests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
 /* End PBXGroup section */
 
 /* Begin PBXNativeTarget section */
@@ -153,10 +210,12 @@
 				563A75321C1E75A100FE3E6E /* Sources */,
 				563A75331C1E75A100FE3E6E /* Frameworks */,
 				563A75341C1E75A100FE3E6E /* Resources */,
+				563A757F1C1E7E8200FE3E6E /* Embed Frameworks */,
 			);
 			buildRules = (
 			);
 			dependencies = (
+				563A757E1C1E7E8200FE3E6E /* PBXTargetDependency */,
 			);
 			name = "iOS Chart Demo by 25sprout";
 			productName = "iOS Chart Demo by 25sprout";
@@ -232,6 +291,12 @@
 			mainGroup = 563A752D1C1E75A100FE3E6E;
 			productRefGroup = 563A75371C1E75A100FE3E6E /* Products */;
 			projectDirPath = "";
+			projectReferences = (
+				{
+					ProductGroup = 563A75701C1E7E7900FE3E6E /* Products */;
+					ProjectRef = 563A756F1C1E7E7900FE3E6E /* Charts.xcodeproj */;
+				},
+			);
 			projectRoot = "";
 			targets = (
 				563A75351C1E75A100FE3E6E /* iOS Chart Demo by 25sprout */,
@@ -240,6 +305,30 @@
 			);
 		};
 /* End PBXProject section */
+
+/* Begin PBXReferenceProxy section */
+		563A75761C1E7E7900FE3E6E /* Charts.framework */ = {
+			isa = PBXReferenceProxy;
+			fileType = wrapper.framework;
+			path = Charts.framework;
+			remoteRef = 563A75751C1E7E7900FE3E6E /* PBXContainerItemProxy */;
+			sourceTree = BUILT_PRODUCTS_DIR;
+		};
+		563A75781C1E7E7900FE3E6E /* Charts.framework */ = {
+			isa = PBXReferenceProxy;
+			fileType = wrapper.framework;
+			path = Charts.framework;
+			remoteRef = 563A75771C1E7E7900FE3E6E /* PBXContainerItemProxy */;
+			sourceTree = BUILT_PRODUCTS_DIR;
+		};
+		563A757A1C1E7E7900FE3E6E /* ChartsTests.xctest */ = {
+			isa = PBXReferenceProxy;
+			fileType = wrapper.cfbundle;
+			path = ChartsTests.xctest;
+			remoteRef = 563A75791C1E7E7900FE3E6E /* PBXContainerItemProxy */;
+			sourceTree = BUILT_PRODUCTS_DIR;
+		};
+/* End PBXReferenceProxy section */
 
 /* Begin PBXResourcesBuildPhase section */
 		563A75341C1E75A100FE3E6E /* Resources */ = {
@@ -308,6 +397,11 @@
 			isa = PBXTargetDependency;
 			target = 563A75351C1E75A100FE3E6E /* iOS Chart Demo by 25sprout */;
 			targetProxy = 563A755E1C1E75A100FE3E6E /* PBXContainerItemProxy */;
+		};
+		563A757E1C1E7E8200FE3E6E /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			name = "Charts-iOS";
+			targetProxy = 563A757D1C1E7E8200FE3E6E /* PBXContainerItemProxy */;
 		};
 /* End PBXTargetDependency section */
 
@@ -415,6 +509,7 @@
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				EMBEDDED_CONTENT_CONTAINS_SWIFT = YES;
 				INFOPLIST_FILE = "iOS Chart Demo by 25sprout/Info.plist";
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				PRODUCT_BUNDLE_IDENTIFIER = "com.25sprout.iOS-Chart-Demo-by-25sprout";
@@ -426,6 +521,7 @@
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				EMBEDDED_CONTENT_CONTAINS_SWIFT = YES;
 				INFOPLIST_FILE = "iOS Chart Demo by 25sprout/Info.plist";
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				PRODUCT_BUNDLE_IDENTIFIER = "com.25sprout.iOS-Chart-Demo-by-25sprout";

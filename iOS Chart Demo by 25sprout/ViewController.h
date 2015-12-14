@@ -7,9 +7,16 @@
 //
 
 #import <UIKit/UIKit.h>
+@import Charts;
 
 @interface ViewController : UIViewController
 
+@property (weak, nonatomic) IBOutlet BarChartView *barChartView;
+
+
+#pragma mark - chart data properties
+@property (strong, nonatomic) NSArray *months;
+@property (strong, nonatomic) NSArray *unitsSolds;
 
 @end
 
