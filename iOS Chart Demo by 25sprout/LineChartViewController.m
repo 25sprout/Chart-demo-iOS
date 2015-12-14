@@ -24,6 +24,8 @@
     
     self.navigationItem.title = @"Line Chart";
     
+    [self moreCustomizeSetting];
+    
     [self showLineChart];
 }
 
@@ -44,14 +46,13 @@
 
 // Function to show lineChart
 - (void)showLineChart {
-    
-    DataSetting *dataSetting = [[DataSetting alloc] init];
+    DataSetting *dataSetting = [[DataSetting alloc] init] ;
     
     NSMutableArray *dataEntries = [[NSMutableArray alloc] init];
     
-    for (int i = 0; i < dataSetting.months.count; i++) {
+    for (int i = 0; i < dataSetting.quarter.count; i++) {
         
-        double unitSold = [[dataSetting.unitsSolds objectAtIndex:i] doubleValue];
+        double unitSold = [[dataSetting.avgUnitsSolds objectAtIndex:i] doubleValue];
         
         ChartDataEntry *dataEntry = [[ChartDataEntry alloc] initWithValue:unitSold xIndex:i];
         
@@ -60,9 +61,14 @@
     
     LineChartDataSet *lineChartDataSet = [[LineChartDataSet alloc] initWithYVals:dataEntries label:@"Unit Sold"];
     
-    LineChartData *lineChartData = [[LineChartData alloc] initWithXVals:dataSetting.months dataSet:lineChartDataSet];
+    LineChartData *lineChartData = [[LineChartData alloc] initWithXVals:dataSetting.quarter dataSet:lineChartDataSet];
     
     lineChartView.data = lineChartData;
+}
+
+- (void)moreCustomizeSetting {
+    
+    [lineChartView.rightAxis addLimitLine:[DataSetting coCustomizeSettingWithLimit:7 withWidth:5]];
 }
 
 @end

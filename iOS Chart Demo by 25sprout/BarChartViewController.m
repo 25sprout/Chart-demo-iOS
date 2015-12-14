@@ -24,9 +24,12 @@
     // Do any additional setup after loading the view, typically from a nib.
     
     self.navigationItem.title = @"Bar Chart";
-    
+
     // 客製化尚未加入資料的View 訊息
     [self customTextSetting];
+    
+    // 更多設定參考範例
+    [self moreCustomizeSetting];
     
     // Function to show barChart
     [self showBarChart];
@@ -45,6 +48,8 @@
     
     barChartView.noDataText = @"你客製化的訊息";
     barChartView.noDataTextDescription = @"更多詳情";
+    barChartView.descriptionText = @"這個是Bar Chart 圖表";
+    barChartView.descriptionTextColor = [UIColor colorWithRed: 10/255.f green: 156/255.f blue:90/255.f alpha:1.f];
 }
 
 // Function to show barChart
@@ -68,6 +73,17 @@
     BarChartData *barChartData = [[BarChartData alloc] initWithXVals:dataSetting.months dataSet:barChartDataSet];
     
     barChartView.data = barChartData;
+}
+
+- (void)moreCustomizeSetting {
+    
+    // 邊框設定
+    [barChartView setDrawBordersEnabled:YES];
+    [barChartView setBorderColor:[UIColor colorWithRed:156/255.f green:16/255.f blue:56/255.f alpha:1.f]];
+    [barChartView setBorderLineWidth:5.f];
+    
+    // 增加限制線
+    [barChartView.rightAxis addLimitLine:[DataSetting coCustomizeSettingWithLimit:4 withWidth:2]];
 }
 
 @end
