@@ -23,6 +23,8 @@
     [super viewDidLoad];
     // Do any additional setup after loading the view, typically from a nib.
     
+    self.navigationItem.title = @"Bar Chart";
+    
     // 客製化尚未加入資料的View 訊息
     [self customTextSetting];
     
