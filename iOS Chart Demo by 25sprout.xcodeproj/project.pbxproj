@@ -1,0 +1,536 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		563A753B1C1E75A100FE3E6E /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 563A753A1C1E75A100FE3E6E /* main.m */; };
+		563A753E1C1E75A100FE3E6E /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 563A753D1C1E75A100FE3E6E /* AppDelegate.m */; };
+		563A75411C1E75A100FE3E6E /* ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 563A75401C1E75A100FE3E6E /* ViewController.m */; };
+		563A75441C1E75A100FE3E6E /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 563A75421C1E75A100FE3E6E /* Main.storyboard */; };
+		563A75471C1E75A100FE3E6E /* iOS_Chart_Demo_by_25sprout.xcdatamodeld in Sources */ = {isa = PBXBuildFile; fileRef = 563A75451C1E75A100FE3E6E /* iOS_Chart_Demo_by_25sprout.xcdatamodeld */; };
+		563A75491C1E75A100FE3E6E /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 563A75481C1E75A100FE3E6E /* Assets.xcassets */; };
+		563A754C1C1E75A100FE3E6E /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 563A754A1C1E75A100FE3E6E /* LaunchScreen.storyboard */; };
+		563A75571C1E75A100FE3E6E /* iOS_Chart_Demo_by_25sproutTests.m in Sources */ = {isa = PBXBuildFile; fileRef = 563A75561C1E75A100FE3E6E /* iOS_Chart_Demo_by_25sproutTests.m */; };
+		563A75621C1E75A100FE3E6E /* iOS_Chart_Demo_by_25sproutUITests.m in Sources */ = {isa = PBXBuildFile; fileRef = 563A75611C1E75A100FE3E6E /* iOS_Chart_Demo_by_25sproutUITests.m */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		563A75531C1E75A100FE3E6E /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 563A752E1C1E75A100FE3E6E /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 563A75351C1E75A100FE3E6E;
+			remoteInfo = "iOS Chart Demo by 25sprout";
+		};
+		563A755E1C1E75A100FE3E6E /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 563A752E1C1E75A100FE3E6E /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 563A75351C1E75A100FE3E6E;
+			remoteInfo = "iOS Chart Demo by 25sprout";
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		563A75361C1E75A100FE3E6E /* iOS Chart Demo by 25sprout.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "iOS Chart Demo by 25sprout.app"; sourceTree = BUILT_PRODUCTS_DIR; };
+		563A753A1C1E75A100FE3E6E /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		563A753C1C1E75A100FE3E6E /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
+		563A753D1C1E75A100FE3E6E /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
+		563A753F1C1E75A100FE3E6E /* ViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = ViewController.h; sourceTree = "<group>"; };
+		563A75401C1E75A100FE3E6E /* ViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ViewController.m; sourceTree = "<group>"; };
+		563A75431C1E75A100FE3E6E /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		563A75461C1E75A100FE3E6E /* iOS_Chart_Demo_by_25sprout.xcdatamodel */ = {isa = PBXFileReference; lastKnownFileType = wrapper.xcdatamodel; path = iOS_Chart_Demo_by_25sprout.xcdatamodel; sourceTree = "<group>"; };
+		563A75481C1E75A100FE3E6E /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		563A754B1C1E75A100FE3E6E /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		563A754D1C1E75A100FE3E6E /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		563A75521C1E75A100FE3E6E /* iOS Chart Demo by 25sproutTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "iOS Chart Demo by 25sproutTests.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
+		563A75561C1E75A100FE3E6E /* iOS_Chart_Demo_by_25sproutTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = iOS_Chart_Demo_by_25sproutTests.m; sourceTree = "<group>"; };
+		563A75581C1E75A100FE3E6E /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		563A755D1C1E75A100FE3E6E /* iOS Chart Demo by 25sproutUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "iOS Chart Demo by 25sproutUITests.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
+		563A75611C1E75A100FE3E6E /* iOS_Chart_Demo_by_25sproutUITests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = iOS_Chart_Demo_by_25sproutUITests.m; sourceTree = "<group>"; };
+		563A75631C1E75A100FE3E6E /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		563A75331C1E75A100FE3E6E /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		563A754F1C1E75A100FE3E6E /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		563A755A1C1E75A100FE3E6E /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		563A752D1C1E75A100FE3E6E = {
+			isa = PBXGroup;
+			children = (
+				563A75381C1E75A100FE3E6E /* iOS Chart Demo by 25sprout */,
+				563A75551C1E75A100FE3E6E /* iOS Chart Demo by 25sproutTests */,
+				563A75601C1E75A100FE3E6E /* iOS Chart Demo by 25sproutUITests */,
+				563A75371C1E75A100FE3E6E /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		563A75371C1E75A100FE3E6E /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				563A75361C1E75A100FE3E6E /* iOS Chart Demo by 25sprout.app */,
+				563A75521C1E75A100FE3E6E /* iOS Chart Demo by 25sproutTests.xctest */,
+				563A755D1C1E75A100FE3E6E /* iOS Chart Demo by 25sproutUITests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		563A75381C1E75A100FE3E6E /* iOS Chart Demo by 25sprout */ = {
+			isa = PBXGroup;
+			children = (
+				563A753C1C1E75A100FE3E6E /* AppDelegate.h */,
+				563A753D1C1E75A100FE3E6E /* AppDelegate.m */,
+				563A753F1C1E75A100FE3E6E /* ViewController.h */,
+				563A75401C1E75A100FE3E6E /* ViewController.m */,
+				563A75421C1E75A100FE3E6E /* Main.storyboard */,
+				563A75481C1E75A100FE3E6E /* Assets.xcassets */,
+				563A754A1C1E75A100FE3E6E /* LaunchScreen.storyboard */,
+				563A754D1C1E75A100FE3E6E /* Info.plist */,
+				563A75451C1E75A100FE3E6E /* iOS_Chart_Demo_by_25sprout.xcdatamodeld */,
+				563A75391C1E75A100FE3E6E /* Supporting Files */,
+			);
+			path = "iOS Chart Demo by 25sprout";
+			sourceTree = "<group>";
+		};
+		563A75391C1E75A100FE3E6E /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				563A753A1C1E75A100FE3E6E /* main.m */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		563A75551C1E75A100FE3E6E /* iOS Chart Demo by 25sproutTests */ = {
+			isa = PBXGroup;
+			children = (
+				563A75561C1E75A100FE3E6E /* iOS_Chart_Demo_by_25sproutTests.m */,
+				563A75581C1E75A100FE3E6E /* Info.plist */,
+			);
+			path = "iOS Chart Demo by 25sproutTests";
+			sourceTree = "<group>";
+		};
+		563A75601C1E75A100FE3E6E /* iOS Chart Demo by 25sproutUITests */ = {
+			isa = PBXGroup;
+			children = (
+				563A75611C1E75A100FE3E6E /* iOS_Chart_Demo_by_25sproutUITests.m */,
+				563A75631C1E75A100FE3E6E /* Info.plist */,
+			);
+			path = "iOS Chart Demo by 25sproutUITests";
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		563A75351C1E75A100FE3E6E /* iOS Chart Demo by 25sprout */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 563A75661C1E75A100FE3E6E /* Build configuration list for PBXNativeTarget "iOS Chart Demo by 25sprout" */;
+			buildPhases = (
+				563A75321C1E75A100FE3E6E /* Sources */,
+				563A75331C1E75A100FE3E6E /* Frameworks */,
+				563A75341C1E75A100FE3E6E /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = "iOS Chart Demo by 25sprout";
+			productName = "iOS Chart Demo by 25sprout";
+			productReference = 563A75361C1E75A100FE3E6E /* iOS Chart Demo by 25sprout.app */;
+			productType = "com.apple.product-type.application";
+		};
+		563A75511C1E75A100FE3E6E /* iOS Chart Demo by 25sproutTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 563A75691C1E75A100FE3E6E /* Build configuration list for PBXNativeTarget "iOS Chart Demo by 25sproutTests" */;
+			buildPhases = (
+				563A754E1C1E75A100FE3E6E /* Sources */,
+				563A754F1C1E75A100FE3E6E /* Frameworks */,
+				563A75501C1E75A100FE3E6E /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				563A75541C1E75A100FE3E6E /* PBXTargetDependency */,
+			);
+			name = "iOS Chart Demo by 25sproutTests";
+			productName = "iOS Chart Demo by 25sproutTests";
+			productReference = 563A75521C1E75A100FE3E6E /* iOS Chart Demo by 25sproutTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+		563A755C1C1E75A100FE3E6E /* iOS Chart Demo by 25sproutUITests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 563A756C1C1E75A100FE3E6E /* Build configuration list for PBXNativeTarget "iOS Chart Demo by 25sproutUITests" */;
+			buildPhases = (
+				563A75591C1E75A100FE3E6E /* Sources */,
+				563A755A1C1E75A100FE3E6E /* Frameworks */,
+				563A755B1C1E75A100FE3E6E /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				563A755F1C1E75A100FE3E6E /* PBXTargetDependency */,
+			);
+			name = "iOS Chart Demo by 25sproutUITests";
+			productName = "iOS Chart Demo by 25sproutUITests";
+			productReference = 563A755D1C1E75A100FE3E6E /* iOS Chart Demo by 25sproutUITests.xctest */;
+			productType = "com.apple.product-type.bundle.ui-testing";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		563A752E1C1E75A100FE3E6E /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastUpgradeCheck = 0720;
+				ORGANIZATIONNAME = 25sprout;
+				TargetAttributes = {
+					563A75351C1E75A100FE3E6E = {
+						CreatedOnToolsVersion = 7.2;
+					};
+					563A75511C1E75A100FE3E6E = {
+						CreatedOnToolsVersion = 7.2;
+						TestTargetID = 563A75351C1E75A100FE3E6E;
+					};
+					563A755C1C1E75A100FE3E6E = {
+						CreatedOnToolsVersion = 7.2;
+						TestTargetID = 563A75351C1E75A100FE3E6E;
+					};
+				};
+			};
+			buildConfigurationList = 563A75311C1E75A100FE3E6E /* Build configuration list for PBXProject "iOS Chart Demo by 25sprout" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 563A752D1C1E75A100FE3E6E;
+			productRefGroup = 563A75371C1E75A100FE3E6E /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				563A75351C1E75A100FE3E6E /* iOS Chart Demo by 25sprout */,
+				563A75511C1E75A100FE3E6E /* iOS Chart Demo by 25sproutTests */,
+				563A755C1C1E75A100FE3E6E /* iOS Chart Demo by 25sproutUITests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		563A75341C1E75A100FE3E6E /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				563A754C1C1E75A100FE3E6E /* LaunchScreen.storyboard in Resources */,
+				563A75491C1E75A100FE3E6E /* Assets.xcassets in Resources */,
+				563A75441C1E75A100FE3E6E /* Main.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		563A75501C1E75A100FE3E6E /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		563A755B1C1E75A100FE3E6E /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		563A75321C1E75A100FE3E6E /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				563A75471C1E75A100FE3E6E /* iOS_Chart_Demo_by_25sprout.xcdatamodeld in Sources */,
+				563A75411C1E75A100FE3E6E /* ViewController.m in Sources */,
+				563A753E1C1E75A100FE3E6E /* AppDelegate.m in Sources */,
+				563A753B1C1E75A100FE3E6E /* main.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		563A754E1C1E75A100FE3E6E /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				563A75571C1E75A100FE3E6E /* iOS_Chart_Demo_by_25sproutTests.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		563A75591C1E75A100FE3E6E /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				563A75621C1E75A100FE3E6E /* iOS_Chart_Demo_by_25sproutUITests.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		563A75541C1E75A100FE3E6E /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 563A75351C1E75A100FE3E6E /* iOS Chart Demo by 25sprout */;
+			targetProxy = 563A75531C1E75A100FE3E6E /* PBXContainerItemProxy */;
+		};
+		563A755F1C1E75A100FE3E6E /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 563A75351C1E75A100FE3E6E /* iOS Chart Demo by 25sprout */;
+			targetProxy = 563A755E1C1E75A100FE3E6E /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		563A75421C1E75A100FE3E6E /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				563A75431C1E75A100FE3E6E /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		563A754A1C1E75A100FE3E6E /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				563A754B1C1E75A100FE3E6E /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		563A75641C1E75A100FE3E6E /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 9.2;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+			};
+			name = Debug;
+		};
+		563A75651C1E75A100FE3E6E /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 9.2;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				SDKROOT = iphoneos;
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		563A75671C1E75A100FE3E6E /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				INFOPLIST_FILE = "iOS Chart Demo by 25sprout/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = "com.25sprout.iOS-Chart-Demo-by-25sprout";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Debug;
+		};
+		563A75681C1E75A100FE3E6E /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				INFOPLIST_FILE = "iOS Chart Demo by 25sprout/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = "com.25sprout.iOS-Chart-Demo-by-25sprout";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Release;
+		};
+		563A756A1C1E75A100FE3E6E /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				INFOPLIST_FILE = "iOS Chart Demo by 25sproutTests/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = "com.25sprout.iOS-Chart-Demo-by-25sproutTests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/iOS Chart Demo by 25sprout.app/iOS Chart Demo by 25sprout";
+			};
+			name = Debug;
+		};
+		563A756B1C1E75A100FE3E6E /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				INFOPLIST_FILE = "iOS Chart Demo by 25sproutTests/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = "com.25sprout.iOS-Chart-Demo-by-25sproutTests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/iOS Chart Demo by 25sprout.app/iOS Chart Demo by 25sprout";
+			};
+			name = Release;
+		};
+		563A756D1C1E75A100FE3E6E /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				INFOPLIST_FILE = "iOS Chart Demo by 25sproutUITests/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = "com.25sprout.iOS-Chart-Demo-by-25sproutUITests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_TARGET_NAME = "iOS Chart Demo by 25sprout";
+				USES_XCTRUNNER = YES;
+			};
+			name = Debug;
+		};
+		563A756E1C1E75A100FE3E6E /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				INFOPLIST_FILE = "iOS Chart Demo by 25sproutUITests/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = "com.25sprout.iOS-Chart-Demo-by-25sproutUITests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_TARGET_NAME = "iOS Chart Demo by 25sprout";
+				USES_XCTRUNNER = YES;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		563A75311C1E75A100FE3E6E /* Build configuration list for PBXProject "iOS Chart Demo by 25sprout" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				563A75641C1E75A100FE3E6E /* Debug */,
+				563A75651C1E75A100FE3E6E /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		563A75661C1E75A100FE3E6E /* Build configuration list for PBXNativeTarget "iOS Chart Demo by 25sprout" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				563A75671C1E75A100FE3E6E /* Debug */,
+				563A75681C1E75A100FE3E6E /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+		563A75691C1E75A100FE3E6E /* Build configuration list for PBXNativeTarget "iOS Chart Demo by 25sproutTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				563A756A1C1E75A100FE3E6E /* Debug */,
+				563A756B1C1E75A100FE3E6E /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+		563A756C1C1E75A100FE3E6E /* Build configuration list for PBXNativeTarget "iOS Chart Demo by 25sproutUITests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				563A756D1C1E75A100FE3E6E /* Debug */,
+				563A756E1C1E75A100FE3E6E /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+/* End XCConfigurationList section */
+
+/* Begin XCVersionGroup section */
+		563A75451C1E75A100FE3E6E /* iOS_Chart_Demo_by_25sprout.xcdatamodeld */ = {
+			isa = XCVersionGroup;
+			children = (
+				563A75461C1E75A100FE3E6E /* iOS_Chart_Demo_by_25sprout.xcdatamodel */,
+			);
+			currentVersion = 563A75461C1E75A100FE3E6E /* iOS_Chart_Demo_by_25sprout.xcdatamodel */;
+			path = iOS_Chart_Demo_by_25sprout.xcdatamodeld;
+			sourceTree = "<group>";
+			versionGroupType = wrapper.xcdatamodel;
+		};
+/* End XCVersionGroup section */
+	};
+	rootObject = 563A752E1C1E75A100FE3E6E /* Project object */;
+}
