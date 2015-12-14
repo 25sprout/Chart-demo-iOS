@@ -20,6 +20,7 @@
 		563A757C1C1E7E8200FE3E6E /* Charts.framework in Embed Frameworks */ = {isa = PBXBuildFile; fileRef = 563A75761C1E7E7900FE3E6E /* Charts.framework */; settings = {ATTRIBUTES = (CodeSignOnCopy, RemoveHeadersOnCopy, ); }; };
 		563A75831C1E896A00FE3E6E /* DataSetting.m in Sources */ = {isa = PBXBuildFile; fileRef = 563A75821C1E896A00FE3E6E /* DataSetting.m */; };
 		563A75861C1E9D8C00FE3E6E /* LineChartViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 563A75851C1E9D8C00FE3E6E /* LineChartViewController.m */; };
+		563A758B1C1EA17E00FE3E6E /* Pic Resources in Resources */ = {isa = PBXBuildFile; fileRef = 563A758A1C1EA17E00FE3E6E /* Pic Resources */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -104,6 +105,7 @@
 		563A75821C1E896A00FE3E6E /* DataSetting.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = DataSetting.m; sourceTree = "<group>"; };
 		563A75841C1E9D8C00FE3E6E /* LineChartViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = LineChartViewController.h; sourceTree = "<group>"; };
 		563A75851C1E9D8C00FE3E6E /* LineChartViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = LineChartViewController.m; sourceTree = "<group>"; };
+		563A758A1C1EA17E00FE3E6E /* Pic Resources */ = {isa = PBXFileReference; lastKnownFileType = folder; path = "Pic Resources"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -176,6 +178,7 @@
 		563A75391C1E75A100FE3E6E /* Supporting Files */ = {
 			isa = PBXGroup;
 			children = (
+				563A758A1C1EA17E00FE3E6E /* Pic Resources */,
 				563A756F1C1E7E7900FE3E6E /* Charts.xcodeproj */,
 				563A753A1C1E75A100FE3E6E /* main.m */,
 			);
@@ -345,6 +348,7 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				563A758B1C1EA17E00FE3E6E /* Pic Resources in Resources */,
 				563A754C1C1E75A100FE3E6E /* LaunchScreen.storyboard in Resources */,
 				563A75491C1E75A100FE3E6E /* Assets.xcassets in Resources */,
 				563A75441C1E75A100FE3E6E /* Main.storyboard in Resources */,
@@ -608,6 +612,7 @@
 				563A75681C1E75A100FE3E6E /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 		563A75691C1E75A100FE3E6E /* Build configuration list for PBXNativeTarget "iOS Chart Demo by 25sproutTests" */ = {
 			isa = XCConfigurationList;
@@ -616,6 +621,7 @@
 				563A756B1C1E75A100FE3E6E /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 		563A756C1C1E75A100FE3E6E /* Build configuration list for PBXNativeTarget "iOS Chart Demo by 25sproutUITests" */ = {
 			isa = XCConfigurationList;
@@ -624,6 +630,7 @@
 				563A756E1C1E75A100FE3E6E /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 
