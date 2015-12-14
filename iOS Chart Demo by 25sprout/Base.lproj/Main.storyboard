@@ -1,6 +1,7 @@
 <?xml version="1.0" encoding="UTF-8" standalone="no"?>
 <document type="com.apple.InterfaceBuilder3.CocoaTouch.Storyboard.XIB" version="3.0" toolsVersion="9531" systemVersion="15C50" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES" useTraitCollections="YES" initialViewController="tfE-M8-3tR">
     <dependencies>
+        <deployment identifier="iOS"/>
         <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="9529"/>
     </dependencies>
     <scenes>
@@ -29,7 +30,13 @@
                             <constraint firstAttribute="trailing" secondItem="VWj-GY-fZe" secondAttribute="trailing" id="ZI1-Pd-b1b"/>
                         </constraints>
                     </view>
-                    <navigationItem key="navigationItem" id="Nn0-LR-aP1"/>
+                    <navigationItem key="navigationItem" id="Nn0-LR-aP1">
+                        <barButtonItem key="rightBarButtonItem" title="Line Chart" id="DSN-mb-LzI">
+                            <connections>
+                                <segue destination="Y7d-AY-P95" kind="show" id="iIr-z8-JrO"/>
+                            </connections>
+                        </barButtonItem>
+                    </navigationItem>
                     <connections>
                         <outlet property="barChartView" destination="VWj-GY-fZe" id="hDX-Zc-acJ"/>
                     </connections>
@@ -37,6 +44,39 @@
                 <placeholder placeholderIdentifier="IBFirstResponder" id="dkx-z0-nzr" sceneMemberID="firstResponder"/>
             </objects>
             <point key="canvasLocation" x="1112" y="1040"/>
+        </scene>
+        <!--Line Chart View Controller-->
+        <scene sceneID="eJm-4y-SSV">
+            <objects>
+                <viewController id="Y7d-AY-P95" customClass="LineChartViewController" sceneMemberID="viewController">
+                    <layoutGuides>
+                        <viewControllerLayoutGuide type="top" id="HP8-ZI-dpz"/>
+                        <viewControllerLayoutGuide type="bottom" id="Ds1-gX-UAR"/>
+                    </layoutGuides>
+                    <view key="view" contentMode="scaleToFill" id="Bhw-hY-klK">
+                        <rect key="frame" x="0.0" y="0.0" width="600" height="600"/>
+                        <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+                        <subviews>
+                            <view contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="ttc-51-95V" customClass="LineChartView" customModule="Charts">
+                                <rect key="frame" x="0.0" y="72" width="600" height="528"/>
+                                <color key="backgroundColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
+                            </view>
+                        </subviews>
+                        <color key="backgroundColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
+                        <constraints>
+                            <constraint firstItem="ttc-51-95V" firstAttribute="top" secondItem="HP8-ZI-dpz" secondAttribute="bottom" constant="8" symbolic="YES" id="B5K-iB-YkO"/>
+                            <constraint firstItem="ttc-51-95V" firstAttribute="leading" secondItem="Bhw-hY-klK" secondAttribute="leading" id="TsL-wR-EpB"/>
+                            <constraint firstItem="ttc-51-95V" firstAttribute="bottom" secondItem="Ds1-gX-UAR" secondAttribute="top" id="bSl-ki-18F"/>
+                            <constraint firstAttribute="trailing" secondItem="ttc-51-95V" secondAttribute="trailing" id="gQz-OD-FBZ"/>
+                        </constraints>
+                    </view>
+                    <connections>
+                        <outlet property="lineChartView" destination="ttc-51-95V" id="PwF-gy-bjX"/>
+                    </connections>
+                </viewController>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="YnS-MX-tcy" userLabel="First Responder" sceneMemberID="firstResponder"/>
+            </objects>
+            <point key="canvasLocation" x="1825" y="1040"/>
         </scene>
         <!--Navigation Controller-->
         <scene sceneID="1E4-VT-c6o">

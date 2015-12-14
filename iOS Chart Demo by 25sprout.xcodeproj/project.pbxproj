@@ -19,6 +19,7 @@
 		563A757B1C1E7E8200FE3E6E /* Charts.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 563A75761C1E7E7900FE3E6E /* Charts.framework */; };
 		563A757C1C1E7E8200FE3E6E /* Charts.framework in Embed Frameworks */ = {isa = PBXBuildFile; fileRef = 563A75761C1E7E7900FE3E6E /* Charts.framework */; settings = {ATTRIBUTES = (CodeSignOnCopy, RemoveHeadersOnCopy, ); }; };
 		563A75831C1E896A00FE3E6E /* DataSetting.m in Sources */ = {isa = PBXBuildFile; fileRef = 563A75821C1E896A00FE3E6E /* DataSetting.m */; };
+		563A75861C1E9D8C00FE3E6E /* LineChartViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 563A75851C1E9D8C00FE3E6E /* LineChartViewController.m */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -101,6 +102,8 @@
 		563A756F1C1E7E7900FE3E6E /* Charts.xcodeproj */ = {isa = PBXFileReference; lastKnownFileType = "wrapper.pb-project"; name = Charts.xcodeproj; path = "../../../../../../../Downloads/ios-charts-master/Charts/Charts.xcodeproj"; sourceTree = "<group>"; };
 		563A75811C1E896A00FE3E6E /* DataSetting.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = DataSetting.h; sourceTree = "<group>"; };
 		563A75821C1E896A00FE3E6E /* DataSetting.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = DataSetting.m; sourceTree = "<group>"; };
+		563A75841C1E9D8C00FE3E6E /* LineChartViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = LineChartViewController.h; sourceTree = "<group>"; };
+		563A75851C1E9D8C00FE3E6E /* LineChartViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = LineChartViewController.m; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -156,6 +159,8 @@
 				563A753D1C1E75A100FE3E6E /* AppDelegate.m */,
 				563A753F1C1E75A100FE3E6E /* BarChartViewController.h */,
 				563A75401C1E75A100FE3E6E /* BarChartViewController.m */,
+				563A75841C1E9D8C00FE3E6E /* LineChartViewController.h */,
+				563A75851C1E9D8C00FE3E6E /* LineChartViewController.m */,
 				563A75811C1E896A00FE3E6E /* DataSetting.h */,
 				563A75821C1E896A00FE3E6E /* DataSetting.m */,
 				563A75421C1E75A100FE3E6E /* Main.storyboard */,
@@ -372,6 +377,7 @@
 				563A753E1C1E75A100FE3E6E /* AppDelegate.m in Sources */,
 				563A753B1C1E75A100FE3E6E /* main.m in Sources */,
 				563A75831C1E896A00FE3E6E /* DataSetting.m in Sources */,
+				563A75861C1E9D8C00FE3E6E /* LineChartViewController.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
