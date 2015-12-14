@@ -6,15 +6,18 @@
 //  Copyright © 2015 25sprout. All rights reserved.
 //
 
-#import "ViewController.h"
+#import "BarChartViewController.h"
 
-@interface ViewController () <ChartViewDelegate>
+
+@interface BarChartViewController () <ChartViewDelegate>
 
 @end
 
-@implementation ViewController
 
-@synthesize months, unitsSolds, barChartView;
+@implementation BarChartViewController
+
+@synthesize barChartView;
+
 
 - (void)viewDidLoad {
     [super viewDidLoad];
@@ -22,9 +25,6 @@
     
     // 客製化尚未加入資料的View 訊息
     [self customTextSetting];
-    
-    // 設定資料
-    [self dataInput];
     
     // Function to show barChart
     [self showBarChart];
@@ -45,20 +45,16 @@
     barChartView.noDataTextDescription = @"更多詳情";
 }
 
-// 設定資料
-- (void)dataInput {
-    
-    months = @[@"Jan", @"Feb", @"Mar", @"Apr", @"May", @"Jun", @"Jul", @"Aug", @"Sep", @"Oct", @"Nov", @"Dec"];
-    unitsSolds = @[@20.0f, @4.0f, @6.0f, @3.0f, @12.0f, @16.0f, @4.0f, @18.0f, @2.0f, @4.0f, @5.0f, @4.0f];
-}
-
+// Function to show barChart
 - (void)showBarChart {
+    
+    DataSetting *dataSetting = [[DataSetting alloc] init];
     
     NSMutableArray *dataEntries = [[NSMutableArray alloc] init];
     
-    for (int i = 0; i < months.count; i++) {
+    for (int i = 0; i < dataSetting.months.count; i++) {
         
-        double unitSold = [[unitsSolds objectAtIndex:i] doubleValue];
+        double unitSold = [[dataSetting.unitsSolds objectAtIndex:i] doubleValue];
         
         BarChartDataEntry *dataEntry = [[BarChartDataEntry alloc] initWithValue:unitSold xIndex:i];
         
@@ -67,11 +63,9 @@
     
     BarChartDataSet *barChartDataSet = [[BarChartDataSet alloc] initWithYVals:dataEntries label:@"Unit Sold"];
     
-    BarChartData *barChartData = [[BarChartData alloc] initWithXVals:months dataSet:barChartDataSet];
+    BarChartData *barChartData = [[BarChartData alloc] initWithXVals:dataSetting.months dataSet:barChartDataSet];
     
     barChartView.data = barChartData;
 }
-
-
 
 @end

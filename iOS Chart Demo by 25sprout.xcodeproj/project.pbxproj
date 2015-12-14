@@ -9,7 +9,7 @@
 /* Begin PBXBuildFile section */
 		563A753B1C1E75A100FE3E6E /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 563A753A1C1E75A100FE3E6E /* main.m */; };
 		563A753E1C1E75A100FE3E6E /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 563A753D1C1E75A100FE3E6E /* AppDelegate.m */; };
-		563A75411C1E75A100FE3E6E /* ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 563A75401C1E75A100FE3E6E /* ViewController.m */; };
+		563A75411C1E75A100FE3E6E /* BarChartViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 563A75401C1E75A100FE3E6E /* BarChartViewController.m */; };
 		563A75441C1E75A100FE3E6E /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 563A75421C1E75A100FE3E6E /* Main.storyboard */; };
 		563A75471C1E75A100FE3E6E /* iOS_Chart_Demo_by_25sprout.xcdatamodeld in Sources */ = {isa = PBXBuildFile; fileRef = 563A75451C1E75A100FE3E6E /* iOS_Chart_Demo_by_25sprout.xcdatamodeld */; };
 		563A75491C1E75A100FE3E6E /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 563A75481C1E75A100FE3E6E /* Assets.xcassets */; };
@@ -18,6 +18,7 @@
 		563A75621C1E75A100FE3E6E /* iOS_Chart_Demo_by_25sproutUITests.m in Sources */ = {isa = PBXBuildFile; fileRef = 563A75611C1E75A100FE3E6E /* iOS_Chart_Demo_by_25sproutUITests.m */; };
 		563A757B1C1E7E8200FE3E6E /* Charts.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 563A75761C1E7E7900FE3E6E /* Charts.framework */; };
 		563A757C1C1E7E8200FE3E6E /* Charts.framework in Embed Frameworks */ = {isa = PBXBuildFile; fileRef = 563A75761C1E7E7900FE3E6E /* Charts.framework */; settings = {ATTRIBUTES = (CodeSignOnCopy, RemoveHeadersOnCopy, ); }; };
+		563A75831C1E896A00FE3E6E /* DataSetting.m in Sources */ = {isa = PBXBuildFile; fileRef = 563A75821C1E896A00FE3E6E /* DataSetting.m */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -84,8 +85,8 @@
 		563A753A1C1E75A100FE3E6E /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
 		563A753C1C1E75A100FE3E6E /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
 		563A753D1C1E75A100FE3E6E /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
-		563A753F1C1E75A100FE3E6E /* ViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = ViewController.h; sourceTree = "<group>"; };
-		563A75401C1E75A100FE3E6E /* ViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ViewController.m; sourceTree = "<group>"; };
+		563A753F1C1E75A100FE3E6E /* BarChartViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = BarChartViewController.h; sourceTree = "<group>"; };
+		563A75401C1E75A100FE3E6E /* BarChartViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = BarChartViewController.m; sourceTree = "<group>"; };
 		563A75431C1E75A100FE3E6E /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
 		563A75461C1E75A100FE3E6E /* iOS_Chart_Demo_by_25sprout.xcdatamodel */ = {isa = PBXFileReference; lastKnownFileType = wrapper.xcdatamodel; path = iOS_Chart_Demo_by_25sprout.xcdatamodel; sourceTree = "<group>"; };
 		563A75481C1E75A100FE3E6E /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
@@ -98,6 +99,8 @@
 		563A75611C1E75A100FE3E6E /* iOS_Chart_Demo_by_25sproutUITests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = iOS_Chart_Demo_by_25sproutUITests.m; sourceTree = "<group>"; };
 		563A75631C1E75A100FE3E6E /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		563A756F1C1E7E7900FE3E6E /* Charts.xcodeproj */ = {isa = PBXFileReference; lastKnownFileType = "wrapper.pb-project"; name = Charts.xcodeproj; path = "../../../../../../../Downloads/ios-charts-master/Charts/Charts.xcodeproj"; sourceTree = "<group>"; };
+		563A75811C1E896A00FE3E6E /* DataSetting.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = DataSetting.h; sourceTree = "<group>"; };
+		563A75821C1E896A00FE3E6E /* DataSetting.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = DataSetting.m; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -151,8 +154,10 @@
 			children = (
 				563A753C1C1E75A100FE3E6E /* AppDelegate.h */,
 				563A753D1C1E75A100FE3E6E /* AppDelegate.m */,
-				563A753F1C1E75A100FE3E6E /* ViewController.h */,
-				563A75401C1E75A100FE3E6E /* ViewController.m */,
+				563A753F1C1E75A100FE3E6E /* BarChartViewController.h */,
+				563A75401C1E75A100FE3E6E /* BarChartViewController.m */,
+				563A75811C1E896A00FE3E6E /* DataSetting.h */,
+				563A75821C1E896A00FE3E6E /* DataSetting.m */,
 				563A75421C1E75A100FE3E6E /* Main.storyboard */,
 				563A75481C1E75A100FE3E6E /* Assets.xcassets */,
 				563A754A1C1E75A100FE3E6E /* LaunchScreen.storyboard */,
@@ -363,9 +368,10 @@
 			buildActionMask = 2147483647;
 			files = (
 				563A75471C1E75A100FE3E6E /* iOS_Chart_Demo_by_25sprout.xcdatamodeld in Sources */,
-				563A75411C1E75A100FE3E6E /* ViewController.m in Sources */,
+				563A75411C1E75A100FE3E6E /* BarChartViewController.m in Sources */,
 				563A753E1C1E75A100FE3E6E /* AppDelegate.m in Sources */,
 				563A753B1C1E75A100FE3E6E /* main.m in Sources */,
+				563A75831C1E896A00FE3E6E /* DataSetting.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
